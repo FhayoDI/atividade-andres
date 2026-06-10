@@ -1,4 +1,4 @@
-  import { SectionList, Text, View, StyleSheet, StatusBar } from 'react-native';
+import { SectionList, Text, View, StyleSheet, StatusBar } from 'react-native';
 import motorcycles from '../../mocks/motorcycles.json';
 import { agruparPorCategoria } from '../helpers/groupMotorcycles';
 

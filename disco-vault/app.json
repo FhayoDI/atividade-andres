@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Headbangers Vault",
+    "slug": "disco-vault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "discovault",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
